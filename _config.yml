@@ -2,6 +2,7 @@ name: Aldor
 slogan: Programming Language
 markdown: redcarpet
 pygments: true
+exclude: [Makefile]
 
 menus:
    main:
