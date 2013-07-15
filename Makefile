@@ -5,3 +5,5 @@ build:
 	mv .site/* .
 	rmdir .site
 	git add .
+	-git commit -a -m'updating generated files'
+	git checkout gh-pages-source
