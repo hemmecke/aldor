@@ -7,3 +7,6 @@ build:
 	git add -A .
 	-git commit -a -m'updating generated files'
 	git checkout gh-pages-source
+
+serve:
+	jekyll serve -d .site
