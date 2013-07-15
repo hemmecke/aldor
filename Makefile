@@ -1,7 +1,7 @@
 build:
-	jekyll build
+	jekyll build -d .site
 	git checkout gh-pages
 	rm -r *
-	mv _site/* .
-	rmdir _site
+	mv .site/* .
+	rmdir .site
 	git add .
