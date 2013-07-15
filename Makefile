@@ -8,5 +8,8 @@ build:
 	-git commit -a -m'updating generated files'
 	git checkout gh-pages-source
 
+push: build
+	git push origin gh-pages gh-pages-source
+
 serve:
 	jekyll serve -w -d .site
