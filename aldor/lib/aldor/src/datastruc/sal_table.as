@@ -59,16 +59,13 @@ slot is given by a unique key from {\em K}.}
 \alexp{table}: & () $\to$ \% & creation of a table\\
                & \altype{MachineInteger} $\to$ \% & \\
 \end{exports}
-\begin{exports}
-[if $K$ has \altype{InputType} and $V$ has \altype{InputType} then]
+\begin{exports}[if $K$ has \altype{InputType} and $V$ has \altype{InputType} then]
 \category{\altype{InputType}}\\
 \end{exports}
-\begin{exports}
-[if $K$ has \altype{OutputType} and $V$ has \altype{OutputType} then]
+\begin{exports}[if $K$ has \altype{OutputType} and $V$ has \altype{OutputType} then]
 \category{\altype{OutputType}}\\
 \end{exports}
-\begin{exports}
-[if $K$ has \altype{SerializableType} and $V$ has \altype{SerializableType}
+\begin{exports}[if $K$ has \altype{SerializableType} and $V$ has \altype{SerializableType}
 then]
 \category{\altype{SerializableType}}\\
 \end{exports}
