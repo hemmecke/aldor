@@ -70,7 +70,7 @@ divisions can then throw the exception \altype{ReducibleModulusException}.}
 \begin{exports}[if R has \altype{Field} then]
 \category{\altype{Field}}\\
 \end{exports}
-\begin{exports} [if R has \altype{Field} and R has \altype{CharacteristicZero}
+\begin{exports}[if R has \altype{Field} and R has \altype{CharacteristicZero}
 and R has \altype{FactorizationRing} then]
 \category{\altype{FactorizationRing}}\\
 \end{exports}

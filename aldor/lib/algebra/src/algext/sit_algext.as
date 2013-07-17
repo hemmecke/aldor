@@ -250,8 +250,7 @@ Rxx &==& \altype{DenseUnivariateTaylorSeries} R\\
 \begin{exports}[if R has \altype{RationalRootRing} then]
 \category{\altype{RationalRootRing}}\\
 \end{exports}
-\begin{exports}
-[if R has \altype{CharacteristicZero} and R has \altype{Field} then]
+\begin{exports}[if R has \altype{CharacteristicZero} and R has \altype{Field} then]
 \category{\altype{DifferentialExtension} R}\\
 \end{exports}
 #endif

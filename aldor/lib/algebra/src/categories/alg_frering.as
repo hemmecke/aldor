@@ -48,7 +48,7 @@ define FreeRRing(R:Join(ArithmeticType, ExpressionType)):
 #if ALDOC
 \alpage  {ground?}
 \Usage{ \name~m }
-\Signature {\%} {\altype{Boolean}}
+\Signature{\%}{\altype{Boolean}}
 \Params{
 \emph{m} & \% & An element of the module \\
 }

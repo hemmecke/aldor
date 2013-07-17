@@ -78,8 +78,7 @@ Extend a derivation\\
 \alexp{monicRemainderBy!}: & \% $\to$ \% $\to$ \% & Remainder\\
 \end{exports}
 
-\begin{exports}
-[if R has \altype{CommutativeRing} and R has \altype{RittRing} then]
+\begin{exports}[if R has \altype{CommutativeRing} and R has \altype{RittRing} then]
 \alexp{integrate}: & \% $\to$ \% & Integration\\
 & (\%, \altype{Integer}) $\to$ \% & \\
 \end{exports}
@@ -116,8 +115,7 @@ Rational reconstruction\\
 \alexp{squareFreePart}: & \% $\to$ \% & Squarefree part\\
 \end{exports}
 
-\begin{exports}
-[if R has \altype{GcdDomain} and R has \altype{RationalRootRing} then]
+\begin{exports}[if R has \altype{GcdDomain} and R has \altype{RationalRootRing} then]
 \alexp{dispersion}: & \% $\to$ \altype{Integer} & Dispersion\\
                     & (\%, \%) $\to$ \altype{Integer} & \\
 \alexp{integerDistances}:
@@ -160,7 +158,7 @@ Rational roots\\
 \end{exports}
 
 % This loads the alpage's for UnivariatePolynomialAlgebra0
-\input sit_upolc0.tex
+\input{univpoly/categories/sit_upolc0}
 #endif
 
 define UnivariatePolynomialAlgebra(R:Join(ExpressionType, ArithmeticType)):

@@ -46,8 +46,7 @@ UPC &== \altype{UnivariatePolynomialAlgebra}\\
 & (\%, \altype{Integer}) $\to$ \% & \\
 \alfunc{CommutativeRing}{reciprocal}: & \% $\to$ \altype{Partial} \% & Inverse\\
 \end{exports}
-\begin{exports}
-[if R has \altype{CommutativeRing} and R has \altype{RittRing} then]
+\begin{exports}[if R has \altype{CommutativeRing} and R has \altype{RittRing} then]
 \alexp{integrate}: & \% $\to$ \% & Integration\\
  & (\%, \altype{Integer}) $\to$ \% & \\
 \end{exports}

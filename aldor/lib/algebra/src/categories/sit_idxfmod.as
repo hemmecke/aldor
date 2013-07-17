@@ -38,12 +38,10 @@ iterate through all the terms\\
 \alexp{trailingMonomial}: & \% $\to$ \% & trailing monomial\\
 \alexp{trailingTerm}: & \% $\to$ (R, E) & trailing term\\
 \end{exports}
-\begin{exports}
-[if {\em R} has \altype{HashType} and {\em E} has \altype{HashType} then]
+\begin{exports}[if {\em R} has \altype{HashType} and {\em E} has \altype{HashType} then]
 \category{\altype{HashType}}\\
 \end{exports}
-\begin{exports}
-[if {\em R} has \altype{SerializableType}
+\begin{exports}[if {\em R} has \altype{SerializableType}
 and {\em E} has \altype{SerializableType} then]
 \category{\altype{SerializableType}}\\
 \end{exports}
